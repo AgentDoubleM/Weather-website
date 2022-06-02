@@ -103,6 +103,7 @@ app.get("/", function(req, res) {
             }
           }
 
+          const currentWindDir = degToCard(currentWindDeg);
 
           // formatting
           console.log("")
@@ -121,7 +122,7 @@ app.get("/", function(req, res) {
 
           console.log(weatherDescription);
           console.log(dateObjectDay, dateObjectMonth);
-          console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + degToCard(currentWindDeg));
+          console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + currentWindDir);
           console.log("Second day Data: Day Temp: " + secondDayDayTemp + ", Night Temp: " + secondDayNightTemp);
           console.log("Third day Data: Day Temp: " + thirdDayDayTemp + ", Night Temp: " + thirdDayNightTemp);
           console.log("Fourth day Data: Day Temp: " + fourthDayDayTemp + ", Night Temp: " + fourthDayNightTemp);
