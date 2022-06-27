@@ -270,6 +270,22 @@ form textarea {
   border-radius: 30px;
   color: white; }
 
+.btn-group {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 180px;
+}
+
+.btn {
+  background: #56BBF1;
+  width: 120px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
 .map {
   height: 220px; }
 
@@ -1241,8 +1257,8 @@ form textarea {
   width: 100%;
   overflow: hidden;
   border-radius: 10px;
-  margin-top: -150px;
-  margin-bottom: 50px; }
+  margin-top: -180px;
+  margin-bottom: 30px; }
   .forecast-container .forecast {
     display: table-cell;
     vertical-align: top; }
