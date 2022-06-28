@@ -158,13 +158,15 @@
 
 					<div class="row">
 
-						<!-- Mail Subscription Forms -->
-						<div class="col-md-8">
-							<form action="#" class="subscribe-form">
-								<input type="text" placeholder="Enter your email to subscribe...">
-								<input type="submit" value="Subscribe">
-							</form>
-						</div>
+						<!-- Mail Subscription Form -->
+									<div class="col-md-8">
+						<form action="https://formsubmit.co/weatherpage@outlook.com" method="POST" class="subscribe-form">
+							<input type="text" name="email" placeholder="Enter your email to subscribe..." required>
+							<input type="hidden" name="_autoresponse" value="Thank you for the subscription!">
+							<input type="hidden" name="_next" value="http://weatherpage.infinityfreeapp.com/thanks.html">
+							<input type="submit" value="Subscribe">
+						</form>
+					</div>
 
 						<!-- Socials -->
 						<div class="col-md-3 col-md-offset-1">
