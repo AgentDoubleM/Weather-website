@@ -95,16 +95,18 @@
 							<h2 class="section-title">Contact us</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
 							<form action="https://formsubmit.co/weatherpage@outlook.com" method="POST" class="contact-form">
-
+                           
 								<div class="row">
 									<div class="col-md-6"><input type="text" name="Name" placeholder="Your name..." required></div>
 									<div class="col-md-6"><input type="text" name="Email" placeholder="Email Addresss..." required></div>
 								</div>
 
 								<textarea name="Message" placeholder="Message..."></textarea>
+                                				<input type="hidden" name="_next" value="http://weatherpage.infinityfreeapp.com/thanks.html">
 								<div class="text-right">
 									<input type="submit" placeholder="Send message">
 								</div>
+
 
 							</form>
 
@@ -124,13 +126,14 @@
 					<div class="row">
 
 						<!-- Mail Subscription Form -->
-							<div class="col-md-8">
-							<form action="https://formsubmit.co/weatherpage@outlook.com" method="POST" class="subscribe-form">
-								<input type="text" name="email" placeholder="Enter your email to subscribe..." required>
-								<input type="hidden" name="_autoresponse" value="Thank you for the subscription!">
-								<input type="submit" value="Subscribe">
-							</form>
-						</div>
+								<div class="col-md-8">
+						<form action="https://formsubmit.co/weatherpage@outlook.com" method="POST" class="subscribe-form">
+							<input type="text" name="email" placeholder="Enter your email to subscribe..." required>
+							<input type="hidden" name="_autoresponse" value="Thank you for the subscription!">
+							<input type="hidden" name="_next" value="http://weatherpage.infinityfreeapp.com/thanks.html">
+							<input type="submit" value="Subscribe">
+						</form>
+					</div>
 
 						<!-- Socials -->
 						<div class="col-md-3 col-md-offset-1">
