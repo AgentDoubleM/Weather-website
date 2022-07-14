@@ -241,6 +241,7 @@ address {
 p {
   margin-top: 0; }
 
+
 form input, form textarea, form select {
   outline: none;
   border: none;
@@ -1242,6 +1243,13 @@ form textarea {
     padding: 20px 50px 20px 20px;
     background: #4D77FF;
     color: white; }
+  .findButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+  }
   .find-location input[type="submit"] {
     position: absolute;
     top: 5px;
