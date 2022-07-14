@@ -64,8 +64,8 @@
 
 			<div class="container">
 				<form class="find-location" id="newLocation">
-					<input class="firstPlaceholder" id="input" type="text" placeholder="Find your location...">
-					<button class="findButton" onclick="saveInput()">Find</button>
+					<input class="firstPlaceholder" id="input" type="text" placeholder="Find your location..." onkeydown="return event.key != 'Enter';">
+					<button class="findButton" type="button" onclick="saveInput()">Find</button>
 				</form>
 
 			</div>

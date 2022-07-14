@@ -1,7 +1,7 @@
 let search = "";
 let input = "";
 
-function oneCallApi(event) {
+function oneCallApi() {
 
   if (input === "") {
     search = "Berlin";
@@ -268,23 +268,24 @@ function oneCallApi(event) {
 
 oneCallApi()
 
-const form = document.getElementById("newLocation");
-form.addEventListener('submit', oneCallApi);
+// const form = document.getElementById("newLocation");
+// form.addEventListener('submit', oneCallApi);
 
 
 function saveInput() {
   input = document.getElementById("input").value;
   console.log(input)
+  oneCallApi()
 }
 
 
 function successCallback (position) {
-    console.log(position.coords.latitude);
-    console.log(position.coords.longitude);
+  console.log(position.coords.latitude);
+  console.log(position.coords.longitude);
 }
 
 function errorCallback (error) {
-    console.log(error.message);
+  console.log(error.message);
 }
 
 navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
