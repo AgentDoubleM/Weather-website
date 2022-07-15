@@ -280,11 +280,18 @@ form textarea {
 }
 
 .btn {
+  border-color: #56BBF1;
   background: #56BBF1;
   width: 120px;
   padding: 10px 20px;
   border-radius: 30px;
   color: white;
+}
+
+.btn:hover {
+  border-color: #F2FA5A;
+  color: #4D77FF;
+  background-color: #F2FA5A;
 }
 
 .map {
@@ -1176,8 +1183,8 @@ form textarea {
       .main-navigation .menu-toggle {
         display: inline-block; } }
     .main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
-      border-color: #009ad8;
-      color: #009ad8; }
+      border-color: #F2FA5A;
+      color: #F2FA5A; }
   .main-navigation .menu {
     list-style: none;
     display: inline-block;
@@ -1203,8 +1210,8 @@ form textarea {
                 transition: .3s ease;
         font-weight: 400; }
       .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
-        border-color: #009ad8;
-        color: #009ad8; }
+        border-color: #F2FA5A;
+        color: #F2FA5A; }
 
 .mobile-navigation {
   padding: 30px 0 0;
@@ -1315,6 +1322,12 @@ form textarea {
         .forecast-container .forecast.today {
           display: block;
           width: 100%; } }
+
+      @media screen and (max-width: 767px) {
+        .forecast-container .forecast.row-1 {
+          width: 170px; }
+        .forecast-container .forecast.row-2 {
+          width: 170px; } }
     .forecast-container .forecast .forecast-header {
       background: rgba(0, 0, 0, 0.1);
       padding: 10px;
@@ -1468,7 +1481,7 @@ form textarea {
   .arrow-list a {
     color: white; }
     .arrow-list a:hover {
-      color: #009ad8; }
+      color: #F2FA5A; }
 
 .photo-grid {
   margin: 0 -5px; }
@@ -1704,5 +1717,5 @@ form textarea {
     font-size: 20px;
     font-size: 1.4285714286em; }
     .site-footer .social-links a:hover {
-      background: #009ad8;
-      color: white; }
+      background: #F2FA5A;
+      color: #4D77FF; }

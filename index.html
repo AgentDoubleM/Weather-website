@@ -83,15 +83,15 @@
 
 				<div class="container">
 
-					<div class="btn-group" role="group" aria-label="Basic example">
-						<button type="button" class="btn">1 Day</button>
-						<button type="button" class="btn">3 Days</button>
-						<button type="button" class="btn">7 Days</button>
+					<div class="btn-group group-1" role="group" aria-label="days-shown">
+						<button type="button" class="btn btn-warning">1 Day</button>
+						<button type="button" class="btn btn-warning">3 Days</button>
+						<button type="button" class="btn btn-warning">7 Days</button>
 					</div>
 
-					<div class="btn-group" role="group" aria-label="Basic example">
-						<button type="button" class="btn">Celsius</button>
-						<button type="button" class="btn">Fahrenheit</button>
+					<div class="btn-group group-2" role="group" aria-label="units-shown">
+						<button type="button" class="btn btn-primary" onclick="oneCallApiMetric()">Celsius</button>
+						<button type="button" class="btn btn-primary" onclick="oneCallApiImperial()">Fahrenheit</button>
 					</div>
 
 					<div class="forecast-container">
@@ -115,7 +115,7 @@
 								<span><img src="images/icon-compass.png" alt=""><span id="windDir">0</span></span>
 							</div>
 						</div>
-						<div class="forecast">
+						<div class="forecast row-1">
 							<div class="forecast-header">
 								<div class="day"><span id="secondDay">...</span></div>
 							</div>
@@ -129,7 +129,7 @@
 								<small><span id="secondDayNightTemp">0</span></small>
 							</div>
 						</div>
-						<div class="forecast">
+						<div class="forecast row-1">
 							<div class="forecast-header">
 								<div class="day"><span id="thirdDay">...</span></div>
 							</div>
@@ -143,7 +143,7 @@
 								<small><span id="thirdDayNightTemp">0</span></small>
 							</div>
 						</div>
-						<div class="forecast">
+						<div class="forecast row-1">
 							<div class="forecast-header">
 								<div class="day"><span id="fourthDay">...</span></div>
 							</div>
@@ -157,7 +157,7 @@
 								<small><span id="fourthDayNightTemp">0</span></small>
 							</div>
 						</div>
-						<div class="forecast">
+						<div class="forecast row-2">
 							<div class="forecast-header">
 								<div class="day"><span id="fifthDay">...</span></div>
 							</div>
@@ -171,7 +171,7 @@
 								<small><span id="fifthDayNightTemp">0</span></small>
 							</div>
 						</div>
-						<div class="forecast">
+						<div class="forecast row-2">
 							<div class="forecast-header">
 								<div class="day"><span id="sixthDay">...</span></div>
 							</div>
@@ -185,7 +185,7 @@
 								<small><span id="sixthDayNightTemp">0</span></small>
 							</div>
 						</div>
-						<div class="forecast">
+						<div class="forecast row-2">
 							<div class="forecast-header">
 								<div class="day"><span id="lastDay">...</span></div>
 							</div>
