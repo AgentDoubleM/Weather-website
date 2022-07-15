@@ -1728,3 +1728,7 @@ form textarea {
     .site-footer .social-links a:hover {
       background: #F2FA5A;
       color: #4D77FF; }
+  .colophon {
+    padding-top: 20px;
+  }
+  
