@@ -1325,9 +1325,9 @@ form textarea {
 
       @media screen and (max-width: 767px) {
         .forecast-container .forecast.row-1 {
-          width: 170px; }
+          width: 140px; }
         .forecast-container .forecast.row-2 {
-          width: 170px; } }
+          width: 140px; } }
     .forecast-container .forecast .forecast-header {
       background: rgba(0, 0, 0, 0.1);
       padding: 10px;
