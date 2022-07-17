@@ -1266,6 +1266,9 @@ form textarea {
     bottom: 5px;
     padding: 0 40px;
   }
+  .locationButton {
+    padding: 10px;
+  }
   .find-location input[type="submit"] {
     position: absolute;
     top: 5px;

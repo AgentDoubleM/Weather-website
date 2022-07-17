@@ -67,7 +67,6 @@
 					<input class="firstPlaceholder" id="input" type="text" placeholder="Find your location..." onkeydown="return event.key != 'Enter';">
 					<button class="findButton" type="button" onclick="saveInput()">Find</button>
 				</form>
-
 			</div>
 
 		</div>
@@ -83,9 +82,13 @@
 
 				<div class="container">
 
-					<div class="btn-group group-2" role="group" aria-label="units-shown">
+					<div class="btn-group" role="group" aria-label="units-shown">
 						<button type="button" class="btn btn-primary" onclick="oneCallApiMetric()">Celsius</button>
 						<button type="button" class="btn btn-primary" onclick="oneCallApiImperial()">Fahrenheit</button>
+					</div>
+
+					<div class="btn-group" role="group" aria-label="units-shown">
+						<button type="button" class="btn btn-primary" onclick="geolocate()">My Location</button>
 					</div>
 
 					<div class="forecast-container">
