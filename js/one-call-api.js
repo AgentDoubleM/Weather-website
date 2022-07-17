@@ -578,7 +578,7 @@ function oneCallApiImperial() {
 
 function oneCallApiGeo() {
 
-  const url1 = "http://api.openweathermap.org/geo/1.0/reverse?lat=" + lat + "&lon=" + lon + "&limit=1&appid=f75f3ea4fb1c1bfa8c349231332528f1";
+  const url1 = "https://api.openweathermap.org/geo/1.0/reverse?lat=" + lat + "&lon=" + lon + "&limit=1&appid=f75f3ea4fb1c1bfa8c349231332528f1";
 
   var request1 = new XMLHttpRequest()
   request1.open('GET', url1, true)
