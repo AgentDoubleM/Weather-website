@@ -1366,8 +1366,10 @@ form textarea {
       font-weight: 400; }
     .forecast-container .forecast .forecast-icon {
       height: 60px; }
+    .degree, .location, .mini-icons {
+      padding-left: 10px; }
     .forecast-container .forecast .forecast-content {
-      padding: 50px 20px 10px;
+      padding: 50px 10px;
       text-align: center; }
       .forecast-container .forecast .forecast-content .forecast-icon {
         margin-bottom: 20px; }
