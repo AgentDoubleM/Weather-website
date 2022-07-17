@@ -1350,9 +1350,9 @@ form textarea {
           width: 150px; } }
       @media screen and (max-width: 479px) {
         .forecast-container .forecast.row-1 {
-          width: 130px; }
+          width: 127px; }
         .forecast-container .forecast.row-2 {
-          width: 130px; } }
+          width: 127px; } }
     .forecast-container .forecast .forecast-header {
       background: rgba(0, 0, 0, 0.1);
       padding: 10px;
