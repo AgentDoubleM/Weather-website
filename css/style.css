@@ -280,8 +280,8 @@ form textarea {
 }
 
 .btn {
-  border-color: #56BBF1;
-  background: #56BBF1;
+  border-color: #009ad8;
+  background: #009ad8;
   width: 120px;
   padding: 10px 20px;
   border-radius: 30px;
@@ -290,6 +290,8 @@ form textarea {
 
 .locationButton {
   width: 140px;
+  background: #4D77FF;
+  border-color: #4D77FF;
 }
 
 .btn:hover {
@@ -1269,9 +1271,6 @@ form textarea {
     right: 5px;
     bottom: 5px;
     padding: 0 40px;
-  }
-  .locationButton {
-    padding: 10px;
   }
   .find-location input[type="submit"] {
     position: absolute;
