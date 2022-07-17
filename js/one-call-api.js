@@ -60,7 +60,30 @@ function oneCallApiMetric() {
           var weatherData = JSON.parse(this.response)
           if (request2.status >= 200 && request2.status < 400) {
 
-            const weatherDescription = weatherData.current.weather[0].description;
+            const weatherDescription1 = weatherData.current.weather[0].description;
+            const weatherDescription2 = weatherData.daily[0].weather[0].description;
+            const weatherDescription3 = weatherData.daily[1].weather[0].description;
+            const weatherDescription4 = weatherData.daily[2].weather[0].description;
+            const weatherDescription5 = weatherData.daily[3].weather[0].description;
+            const weatherDescription6 = weatherData.daily[4].weather[0].description;
+            const weatherDescription7 = weatherData.daily[5].weather[0].description;
+
+            const weatherIcon1 = weatherData.current.weather[0].icon;
+            const weatherIcon2 = weatherData.daily[0].weather[0].icon;
+            const weatherIcon3 = weatherData.daily[1].weather[0].icon;
+            const weatherIcon4 = weatherData.daily[2].weather[0].icon;
+            const weatherIcon5 = weatherData.daily[3].weather[0].icon;
+            const weatherIcon6 = weatherData.daily[4].weather[0].icon;
+            const weatherIcon7 = weatherData.daily[5].weather[0].icon;
+
+            document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@2x.png";
+            document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@2x.png";
+            document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@2x.png";
+            document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@2x.png";
+            document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@2x.png";
+            document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@2x.png";
+            document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@2x.png";
+
             const currentDateDt = weatherData.current.dt;
 
 
@@ -165,15 +188,15 @@ function oneCallApiMetric() {
             console.log("Specified Weatherdata:");
             console.log("");
 
-            console.log(weatherDescription);
+            console.log(weatherDescription1);
             console.log(dateObjectDay, dateObjectMonth);
-            console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + currentWindDir);
-            console.log("Second day Data: Day Temp: " + secondDayDayTemp + ", Night Temp: " + secondDayNightTemp);
-            console.log("Third day Data: Day Temp: " + thirdDayDayTemp + ", Night Temp: " + thirdDayNightTemp);
-            console.log("Fourth day Data: Day Temp: " + fourthDayDayTemp + ", Night Temp: " + fourthDayNightTemp);
-            console.log("Fifth day Data: Day Temp: " + fifthDayDayTemp + ", Night Temp: " + fifthDayNightTemp);
-            console.log("Sixth day Data: Day Temp: " + sixthDayDayTemp + ", Night Temp: " + sixthDayNightTemp);
-            console.log("Last day Data: Day Temp: " + lastDayDayTemp + ", Night Temp: " + lastDayNightTemp);
+            console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + currentWindDir + ", Weather Description: " + weatherDescription1);
+            console.log("Second day Data: Day Temp: " + secondDayDayTemp + ", Night Temp: " + secondDayNightTemp + ", Weather Description: " + weatherDescription2);
+            console.log("Third day Data: Day Temp: " + thirdDayDayTemp + ", Night Temp: " + thirdDayNightTemp + ", Weather Description: " + weatherDescription3);
+            console.log("Fourth day Data: Day Temp: " + fourthDayDayTemp + ", Night Temp: " + fourthDayNightTemp + ", Weather Description: " + weatherDescription4);
+            console.log("Fifth day Data: Day Temp: " + fifthDayDayTemp + ", Night Temp: " + fifthDayNightTemp + ", Weather Description: " + weatherDescription5);
+            console.log("Sixth day Data: Day Temp: " + sixthDayDayTemp + ", Night Temp: " + sixthDayNightTemp + ", Weather Description: " + weatherDescription6);
+            console.log("Last day Data: Day Temp: " + lastDayDayTemp + ", Night Temp: " + lastDayNightTemp + ", Weather Description: " + weatherDescription7);
 
 
             console.log("----------------------");
@@ -326,7 +349,30 @@ function oneCallApiImperial() {
         var weatherData = JSON.parse(this.response)
         if (request2.status >= 200 && request2.status < 400) {
 
-          const weatherDescription = weatherData.current.weather[0].description;
+          const weatherDescription1 = weatherData.current.weather[0].description;
+          const weatherDescription2 = weatherData.daily[0].weather[0].description;
+          const weatherDescription3 = weatherData.daily[1].weather[0].description;
+          const weatherDescription4 = weatherData.daily[2].weather[0].description;
+          const weatherDescription5 = weatherData.daily[3].weather[0].description;
+          const weatherDescription6 = weatherData.daily[4].weather[0].description;
+          const weatherDescription7 = weatherData.daily[5].weather[0].description;
+
+          const weatherIcon1 = weatherData.current.weather[0].icon;
+          const weatherIcon2 = weatherData.daily[0].weather[0].icon;
+          const weatherIcon3 = weatherData.daily[1].weather[0].icon;
+          const weatherIcon4 = weatherData.daily[2].weather[0].icon;
+          const weatherIcon5 = weatherData.daily[3].weather[0].icon;
+          const weatherIcon6 = weatherData.daily[4].weather[0].icon;
+          const weatherIcon7 = weatherData.daily[5].weather[0].icon;
+
+          document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@2x.png";
+          document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@2x.png";
+          document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@2x.png";
+          document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@2x.png";
+          document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@2x.png";
+          document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@2x.png";
+          document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@2x.png";
+
           const currentDateDt = weatherData.current.dt;
 
 
@@ -431,15 +477,15 @@ function oneCallApiImperial() {
           console.log("Specified Weatherdata:");
           console.log("");
 
-          console.log(weatherDescription);
+          console.log(weatherDescription1);
           console.log(dateObjectDay, dateObjectMonth);
-          console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + currentWindDir);
-          console.log("Second day Data: Day Temp: " + secondDayDayTemp + ", Night Temp: " + secondDayNightTemp);
-          console.log("Third day Data: Day Temp: " + thirdDayDayTemp + ", Night Temp: " + thirdDayNightTemp);
-          console.log("Fourth day Data: Day Temp: " + fourthDayDayTemp + ", Night Temp: " + fourthDayNightTemp);
-          console.log("Fifth day Data: Day Temp: " + fifthDayDayTemp + ", Night Temp: " + fifthDayNightTemp);
-          console.log("Sixth day Data: Day Temp: " + sixthDayDayTemp + ", Night Temp: " + sixthDayNightTemp);
-          console.log("Last day Data: Day Temp: " + lastDayDayTemp + ", Night Temp: " + lastDayNightTemp);
+          console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + currentWindDir + ", Weather Description: " + weatherDescription1);
+          console.log("Second day Data: Day Temp: " + secondDayDayTemp + ", Night Temp: " + secondDayNightTemp + ", Weather Description: " + weatherDescription2);
+          console.log("Third day Data: Day Temp: " + thirdDayDayTemp + ", Night Temp: " + thirdDayNightTemp + ", Weather Description: " + weatherDescription3);
+          console.log("Fourth day Data: Day Temp: " + fourthDayDayTemp + ", Night Temp: " + fourthDayNightTemp + ", Weather Description: " + weatherDescription4);
+          console.log("Fifth day Data: Day Temp: " + fifthDayDayTemp + ", Night Temp: " + fifthDayNightTemp + ", Weather Description: " + weatherDescription5);
+          console.log("Sixth day Data: Day Temp: " + sixthDayDayTemp + ", Night Temp: " + sixthDayNightTemp + ", Weather Description: " + weatherDescription6);
+          console.log("Last day Data: Day Temp: " + lastDayDayTemp + ", Night Temp: " + lastDayNightTemp + ", Weather Description: " + weatherDescription7);
 
 
           console.log("----------------------");
@@ -583,7 +629,30 @@ function oneCallApiGeo() {
           var weatherData = JSON.parse(this.response)
           if (request2.status >= 200 && request2.status < 400) {
 
-            const weatherDescription = weatherData.current.weather[0].description;
+            const weatherDescription1 = weatherData.current.weather[0].description;
+            const weatherDescription2 = weatherData.daily[0].weather[0].description;
+            const weatherDescription3 = weatherData.daily[1].weather[0].description;
+            const weatherDescription4 = weatherData.daily[2].weather[0].description;
+            const weatherDescription5 = weatherData.daily[3].weather[0].description;
+            const weatherDescription6 = weatherData.daily[4].weather[0].description;
+            const weatherDescription7 = weatherData.daily[5].weather[0].description;
+
+            const weatherIcon1 = weatherData.current.weather[0].icon;
+            const weatherIcon2 = weatherData.daily[0].weather[0].icon;
+            const weatherIcon3 = weatherData.daily[1].weather[0].icon;
+            const weatherIcon4 = weatherData.daily[2].weather[0].icon;
+            const weatherIcon5 = weatherData.daily[3].weather[0].icon;
+            const weatherIcon6 = weatherData.daily[4].weather[0].icon;
+            const weatherIcon7 = weatherData.daily[5].weather[0].icon;
+
+            document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@2x.png";
+            document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@2x.png";
+            document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@2x.png";
+            document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@2x.png";
+            document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@2x.png";
+            document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@2x.png";
+            document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@2x.png";
+
             const currentDateDt = weatherData.current.dt;
 
 
@@ -688,15 +757,15 @@ function oneCallApiGeo() {
             console.log("Specified Weatherdata:");
             console.log("");
 
-            console.log(weatherDescription);
+            console.log(weatherDescription1);
             console.log(dateObjectDay, dateObjectMonth);
-            console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + currentWindDir);
-            console.log("Second day Data: Day Temp: " + secondDayDayTemp + ", Night Temp: " + secondDayNightTemp);
-            console.log("Third day Data: Day Temp: " + thirdDayDayTemp + ", Night Temp: " + thirdDayNightTemp);
-            console.log("Fourth day Data: Day Temp: " + fourthDayDayTemp + ", Night Temp: " + fourthDayNightTemp);
-            console.log("Fifth day Data: Day Temp: " + fifthDayDayTemp + ", Night Temp: " + fifthDayNightTemp);
-            console.log("Sixth day Data: Day Temp: " + sixthDayDayTemp + ", Night Temp: " + sixthDayNightTemp);
-            console.log("Last day Data: Day Temp: " + lastDayDayTemp + ", Night Temp: " + lastDayNightTemp);
+            console.log("Current Data: Temp: " + currentTemp + ", Wind Speed: " + currentWindSpeed + ", Wind Direction: " + currentWindDir + ", Weather Description: " + weatherDescription1);
+            console.log("Second day Data: Day Temp: " + secondDayDayTemp + ", Night Temp: " + secondDayNightTemp + ", Weather Description: " + weatherDescription2);
+            console.log("Third day Data: Day Temp: " + thirdDayDayTemp + ", Night Temp: " + thirdDayNightTemp + ", Weather Description: " + weatherDescription3);
+            console.log("Fourth day Data: Day Temp: " + fourthDayDayTemp + ", Night Temp: " + fourthDayNightTemp + ", Weather Description: " + weatherDescription4);
+            console.log("Fifth day Data: Day Temp: " + fifthDayDayTemp + ", Night Temp: " + fifthDayNightTemp + ", Weather Description: " + weatherDescription5);
+            console.log("Sixth day Data: Day Temp: " + sixthDayDayTemp + ", Night Temp: " + sixthDayNightTemp + ", Weather Description: " + weatherDescription6);
+            console.log("Last day Data: Day Temp: " + lastDayDayTemp + ", Night Temp: " + lastDayNightTemp + ", Weather Description: " + weatherDescription7);
 
 
             console.log("----------------------");
