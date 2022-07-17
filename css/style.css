@@ -288,6 +288,10 @@ form textarea {
   color: white;
 }
 
+.locationButton {
+  width: 140px;
+}
+
 .btn:hover {
   border-color: #F2FA5A;
   color: #4D77FF;

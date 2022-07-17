@@ -929,8 +929,8 @@ function errorCallback(error) {
   console.log("")
 }
 
-function geolocate() {
+function geoLocate() {
   navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 }
 
-geolocate();
+geoLocate();
