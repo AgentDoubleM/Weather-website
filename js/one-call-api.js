@@ -76,13 +76,13 @@ function oneCallApiMetric() {
             const weatherIcon6 = weatherData.daily[4].weather[0].icon;
             const weatherIcon7 = weatherData.daily[5].weather[0].icon;
 
-            document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@2x.png";
-            document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@2x.png";
-            document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@2x.png";
-            document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@2x.png";
-            document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@2x.png";
-            document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@2x.png";
-            document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@2x.png";
+            document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@4x.png";
+            document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@4x.png";
+            document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@4x.png";
+            document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@4x.png";
+            document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@4x.png";
+            document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@4x.png";
+            document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@4x.png";
 
             const currentDateDt = weatherData.current.dt;
 
@@ -365,13 +365,13 @@ function oneCallApiImperial() {
           const weatherIcon6 = weatherData.daily[4].weather[0].icon;
           const weatherIcon7 = weatherData.daily[5].weather[0].icon;
 
-          document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@2x.png";
-          document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@2x.png";
-          document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@2x.png";
-          document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@2x.png";
-          document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@2x.png";
-          document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@2x.png";
-          document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@2x.png";
+          document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@4x.png";
+          document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@4x.png";
+          document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@4x.png";
+          document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@4x.png";
+          document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@4x.png";
+          document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@4x.png";
+          document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@4x.png";
 
           const currentDateDt = weatherData.current.dt;
 
@@ -645,13 +645,13 @@ function oneCallApiGeo() {
             const weatherIcon6 = weatherData.daily[4].weather[0].icon;
             const weatherIcon7 = weatherData.daily[5].weather[0].icon;
 
-            document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@2x.png";
-            document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@2x.png";
-            document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@2x.png";
-            document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@2x.png";
-            document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@2x.png";
-            document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@2x.png";
-            document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@2x.png";
+            document.getElementById("weather-icon-1").src = "http://openweathermap.org/img/wn/" + weatherIcon1 + "@4x.png";
+            document.getElementById("weather-icon-2").src = "http://openweathermap.org/img/wn/" + weatherIcon2 + "@4x.png";
+            document.getElementById("weather-icon-3").src = "http://openweathermap.org/img/wn/" + weatherIcon3 + "@4x.png";
+            document.getElementById("weather-icon-4").src = "http://openweathermap.org/img/wn/" + weatherIcon4 + "@4x.png";
+            document.getElementById("weather-icon-5").src = "http://openweathermap.org/img/wn/" + weatherIcon5 + "@4x.png";
+            document.getElementById("weather-icon-6").src = "http://openweathermap.org/img/wn/" + weatherIcon6 + "@4x.png";
+            document.getElementById("weather-icon-7").src = "http://openweathermap.org/img/wn/" + weatherIcon7 + "@4x.png";
 
             const currentDateDt = weatherData.current.dt;
 
