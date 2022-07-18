@@ -85,7 +85,7 @@
 					<div class="btn-group" role="group" aria-label="units-shown">
 						<button type="button" class="btn btn-primary locationButton" onclick="geoLocate()">My Location</button>
 					</div>
-					
+
 					<div class="btn-group" role="group" aria-label="units-shown">
 						<button type="button" class="btn btn-primary" onclick="oneCallApiMetric()">Celsius</button>
 						<button type="button" class="btn btn-primary" onclick="oneCallApiImperial()">Fahrenheit</button>
@@ -217,8 +217,10 @@
 
 					<!-- Mail Subscription Form -->
 					<div class="col-md-8">
-						<form action="#" class="subscribe-form">
-							<input type="text" placeholder="Enter your email to subscribe...">
+						<form action="https://formsubmit.co/weatherpage@outlook.com" method="POST" class="subscribe-form">
+							<input type="text" name="email" placeholder="Enter your email to subscribe..." required>
+							<input type="hidden" name="_autoresponse" value="Thank you for the subscription!">
+							<input type="hidden" name="_next" value="http://weatherpage.infinityfreeapp.com/thanks.html">
 							<input type="submit" value="Subscribe">
 						</form>
 					</div>
