@@ -90,7 +90,7 @@ function oneCallApiMetric() {
             // First Day Data
             const currentTemp = Math.round(weatherData.current.temp);
             const currentWindDeg = weatherData.current.wind_deg;
-            const currentWindSpeed = Math.round(weatherData.current.wind_speed * 3.6);
+            const currentWindSpeed = Math.round(weatherData.current.wind_speed);
 
             document.getElementById("currentTemp").innerHTML = currentTemp + celcius;
             document.getElementById("windSpeed").innerHTML = currentWindSpeed + " m/s";
@@ -379,7 +379,7 @@ function oneCallApiImperial() {
           // First Day Data
           const currentTemp = Math.round(weatherData.current.temp);
           const currentWindDeg = weatherData.current.wind_deg;
-          const currentWindSpeed = Math.round(weatherData.current.wind_speed * 3.6);
+          const currentWindSpeed = Math.round(weatherData.current.wind_speed);
 
           document.getElementById("currentTemp").innerHTML = currentTemp + fahrenheit;
           document.getElementById("windSpeed").innerHTML = currentWindSpeed + " mph";
